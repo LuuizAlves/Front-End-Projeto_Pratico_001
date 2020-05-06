@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 html,body{
     height: 100%;
@@ -27,12 +30,57 @@ html,body{
 }
 .container-banner > .center{
     height: 100%;
-    text-align: right;
+    /*text-align: right;*/
 }
-
 .form{
     width: 400px;
-    height: 100%;
-    display: inline-block;
+    padding: 15px;
+    height: calc(100% + 15px);
+    float: right;
+    /*display: inline-block;*/
+    position: relative;
+    top: -15px;
+    border: 9px solid #CCCCCC;
     background-color: white;
+}
+.form h2{
+    font-weight: normal;
+    font-size: 19px;
+    color: #999999;
+}
+.input-container{
+    margin-top: 20px;
+}
+.input-container span, p{
+    display: inline-block;
+    width: 100%;
+    color: #BBBBBB;
+    font-size: 17px;
+}
+.form p{
+    margin-top: 20px;
+}
+.input-container input[type=text]{
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.input-submit-container{
+    text-align: center;
+}
+.input-submit-container input[type=submit]{
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #363A6D;
+    border: 0;
+    cursor: pointer;
+}
+.input-submit-container input[type=text]:hover{
+    background-color: #323665;
 }
