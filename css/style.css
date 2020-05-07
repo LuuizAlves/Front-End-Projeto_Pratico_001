@@ -84,3 +84,44 @@ html,body{
 .input-submit-container input[type=text]:hover{
     background-color: #323665;
 }
+.container-list{
+    margin-top: 60px;
+    margin-left: 60px;
+    padding: 40px;
+    background-color: rgba(33,35,67, 0.7);
+    width: 619px;
+    height: 270px;
+    float: left;
+}
+.container-list ul{
+    list-style-position: inside;
+}
+.container-list ul li{
+    color: white;
+    margin-top: 18px;
+}
+.container-2{
+    padding: 70px 0;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+.container-2 h2{
+    font-weight: normal;
+}
+.container-2 p{
+    color: black;
+    width: 698px;
+    margin: 15px 0;
+    display:  inline-block;
+    text-align: justify;
+}
+.arrow{
+    position: relative;
+    top: 100px;
+    left: 50%;
+    margin-left: -20px;
+    width: 60px;
+    height: 60px;
+    background-image: url('../images/arrow.png');
+    background-size: contain;
+}
